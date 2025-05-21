@@ -68,6 +68,3 @@ zapLogger, _ := zap.NewProduction()
 log := zapadapter.NewZapAdapter(zapLogger)
 ```
 
-## Лицензия
-
-MIT 
