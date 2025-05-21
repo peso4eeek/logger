@@ -1,7 +1,7 @@
 package adapers
 
 import (
-	"logger/core"
+	"github.com/peso4eeek/logger/core"
 
 	"go.uber.org/zap"
 )

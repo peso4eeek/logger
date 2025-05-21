@@ -2,7 +2,8 @@ package logger
 
 import (
 	"context"
-	"logger/core"
+
+	"github.com/peso4eeek/logger/core"
 
 	grpclog "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
 )

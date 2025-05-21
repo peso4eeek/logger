@@ -1,4 +1,4 @@
-module logger
+module github.com/peso4eeek/logger
 
 go 1.23.6
 
