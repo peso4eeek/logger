@@ -10,6 +10,7 @@ type ZapAdapter struct {
 	*zap.Logger
 }
 
+// Обертка для zap
 func NewZapAdapter(log *zap.Logger) core.Logger {
 	return &ZapAdapter{Logger: log}
 }

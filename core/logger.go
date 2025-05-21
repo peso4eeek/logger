@@ -1,5 +1,6 @@
 package core
 
+//Интерфейс
 type Logger interface {
 	Debug(msg string, keysAndValues ...interface{})
 	Info(msg string, keysAndValues ...interface{})

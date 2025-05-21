@@ -8,6 +8,7 @@ import (
 	grpclog "github.com/grpc-ecosystem/go-grpc-middleware/v2/interceptors/logging"
 )
 
+// Обертка для grpc
 func GRPCInterceptor(log core.Logger) grpclog.Logger {
 	return grpclog.LoggerFunc(func(ctx context.Context, level grpclog.Level, msg string, fields ...any) {
 		args := make([]interface{}, 0, len(fields)*2)
