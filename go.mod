@@ -1,6 +1,8 @@
 module github.com/peso4eeek/logger
 
-go 1.23.6
+go 1.23.0
+
+toolchain go1.23.6
 
 require (
 	github.com/grpc-ecosystem/go-grpc-middleware/v2 v2.3.2
